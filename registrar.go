@@ -1,8 +1,8 @@
 package main
 
-import (
-  "log"
-)
+//import (
+//  "log"
+//)
 
 func Registrar(input chan []*FileEvent) {
   for events := range input {
